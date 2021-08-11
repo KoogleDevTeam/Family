@@ -22,17 +22,15 @@ body {
     padding-bottom: 1rem;
 }
 
-button {
-    border-style: none;
-    background-color: transparent;
+.button {
+    text-decoration: none;
     color: rgb(187, 171, 171);
-    height: 3rem;
     transition-duration: 500ms;
     font-weight: bolder;
 }
 
-button:hover {
-    background-color: #4d4c58;
+.button:hover {
+    color: rgb(197, 148, 148);
     cursor: pointer;
 }
 
